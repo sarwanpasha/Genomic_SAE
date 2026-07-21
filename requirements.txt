@@ -1,0 +1,19 @@
+# Core deep learning (install torch separately with the CUDA index URL, see README)
+torch==2.5.1
+transformers==4.44.2
+tokenizers==0.19.1
+einops==0.8.0
+
+# Scientific stack
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.2
+
+# Genomics I/O
+pyfaidx==0.8.1.1
+
+# Figures
+matplotlib==3.9.2
+
+# Utilities
+tqdm==4.66.5

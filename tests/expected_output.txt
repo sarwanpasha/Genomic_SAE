@@ -1,0 +1,6 @@
+Smoke test expected behavior (small subset; exact numbers will vary):
+- build_binding_windows.py writes binding_windows_CTCF.tsv with ~200 bound windows
+- test_binding.py prints a table of top binding-sensitive features and writes
+  bindingtest_nt_CTCF_layer14.json
+- At least one feature should show AUC_b/u > 0.55 (CTCF signal present even in subset)
+- Pipeline exits 0 with no exceptions
